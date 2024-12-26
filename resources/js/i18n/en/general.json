@@ -1,0 +1,24 @@
+{
+  "welcome": "Welcome, {user}",
+  "navigation": {
+    "back_to_home": "Back to Home",
+    "back_to_map": "Back to Map",
+    "register": "Become A Member",
+    "my_favorites": "My Favorites"
+  },
+  "notifications": {
+    "success": {
+      "title": "Success"
+    },
+    "form_error": {
+      "title": "Form Error",
+      "message": "There is an error with the form. Please check it again!"
+    },
+    "server_error": {
+      "title": "Woops!",
+      "message": "There is an internal server error. Please contact site administrator about this issue!"
+    }
+  },
+  "captcha_help": "Help us fight spam! Please complete the captcha below to continue.",
+  "text_tbd": "To be determined"
+}

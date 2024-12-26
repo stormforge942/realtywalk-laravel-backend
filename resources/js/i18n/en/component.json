@@ -1,0 +1,34 @@
+{
+  "datatable": {
+    "actions": {
+      "btn_show": "Show",
+      "btn_edit": "Edit",
+      "btn_delete": "Delete"
+    },
+    "alert": {
+      "confirm_delete": {
+        "title": "<span>Are you sure want to delete this data?</span>",
+        "message": "Deleted record can not be recycled!",
+        "message_neighborhood": "This neighborhood has sub-neighborhoods assigned to it, by deleting this neighborhood, those sub-neighborhoods will be reassigned by the system and will have to be manually corrected. Are you sure you want to delete this neighborhood?",
+        "btn_confirm": "<i class='cil-trash'></i> Delete",
+        "btn_cancel": "Cancel"
+      },
+      "error": {
+        "title": "<strong>Error Message</strong>",
+        "message": "<div>Request failed: ${message}</div>"
+      }
+    }
+  },
+  "geopicker": {
+    "help": "Select a location on the map to set the Latitude and Longitude:",
+    "form": {
+      "labels": {
+        "lat": "Latitude:",
+        "lng": "Longitude:"
+      }
+    }
+  },
+  "treeselect": {
+    "text_loading": "Loading the data..."
+  }
+}

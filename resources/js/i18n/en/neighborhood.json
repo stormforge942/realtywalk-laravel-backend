@@ -1,0 +1,54 @@
+{
+    "show": {
+    "gallery": {
+        "title": "Gallery",
+        "link_view_more": "View more images..."
+    },
+    "featured_box": {
+        "labels": {
+            "email": "Email",
+            "address": "Address",
+            "website": "Website"
+        }
+    }
+    },
+    "list": {
+        "empty_link": "No links or attractions have been added for this neighborhood yet",
+        "searchBy": {
+            "help": "Properties By Neighborhood",
+            "placeholder":  "Search Neighborhood"
+        },
+        "not_found": "No results found<br/>Try entering a more specific search keyword.",
+        "level": "Level",
+        "n_properties": "No Properties | {n} Property | {n} Properties"
+    },
+    "singleProperty": {
+        "sectionTitles": {
+            "title_1": "LET'S BUILD YOUR FUTURE",
+            "title_2": "DOWNLOADS",
+            "title_3": "ACTIVE LISTING/POSTINGS",
+            "title_4": "PAST LISTING/POSTINGS",
+            "title_5": "COMMUNITIES BUILT IN"
+        },
+        "viewList": "GRID VIEW / LIST VIEW"
+    },
+    "profile": {
+        "documents": "Documents",
+        "name": "Name",
+        "slug": "Slug",
+        "alias_of": "Alias of:",
+        "description": "Description",
+        "email": "Email",
+        "phone": "Phone",
+        "website": "Website",
+        "builder_areas": "Builder Areas:",
+        "address_1": "Address 1",
+        "address_2": "Address 2",
+        "address_3": "Address 3",
+        "logo": "Logo",
+        "gallery": "Gallery"
+    },
+    "filterBy": {
+        "title": "Filter by Builder"
+    }
+}

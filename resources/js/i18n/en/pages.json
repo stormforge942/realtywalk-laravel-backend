@@ -1,0 +1,23 @@
+{
+  "not_found": {
+    "title": "Error",
+    "subtitle": "404",
+    "caption": "<p>The page you are looking for doesn't exist.</p>"
+  },
+  "about_us": {
+    "title": "About us",
+    "body": {
+      "line_1": "<p>Realty Walk is the only website that displays all the boundaries of each neighborhood in the Greater Houston area, and we do this on 3 levels! </p>",
+      "line_2": "<ul class='mb-3'><li>Level 1 displays our <u>Super Neighborhoods</u></li><li>Level 2 displays the <u>General Areas</u></li><li>Level 3 showcases each individual <u>Subdivision</u></li></ul>",
+      "line_3": "<p>For those neighborhoods whose borders are vague or not clearly defined, we asked residents, Realtors and other reliable sources where they considered their boundaries to lie. Yes, this includes the hard to define borders of areas like The Heights, Montrose, Midtown, etc.  We have defined over 13,000 polygons which represents each neighborhood. </p>",
+      "line_4": "<p>And, our maps are interactive!</p>",
+      "line_5": "<p>Our patented Mapping-Technology allows users to search for homes by simply choosing the neighborhoods of their choice, with just a “point and a click”!</p>",
+      "line_6": "<p>And, it’s fun just to preview the site to discover the neighborhood borders.</p>"
+    }
+  },
+  "address_lookup": {
+    "title": "Address Lookup",
+    "result_text": "Search result for: <i>{q}</i>",
+    "not_found": "Address is not found."
+  }
+}

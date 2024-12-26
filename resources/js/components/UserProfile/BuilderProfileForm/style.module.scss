@@ -1,0 +1,137 @@
+.btn-primary {
+  background: #012e55;
+  border: 0px solid;
+}
+.has-error {
+  label, p {
+    color: #dc3545!important;
+  }
+  p {
+    margin: .5rem 0 0;
+  }
+  .form-control,
+  .input-group-text,
+  .vue-treeselect__control,
+  .ql-toolbar.ql-snow,
+  .ql-container.ql-snow {
+    border-color: #a94442;
+  }
+  .input-group .form-control {
+    border-left-width: 0;
+    border-right-width: 0;
+  }
+}
+
+.required {
+  position: relative;
+
+  &::before {
+    content: "*";
+    color: #ff0000;
+    left: -12px;
+    top: -2px;
+    position: absolute;
+    font-size: 1.25em;
+  }
+}
+
+.quill-editor::v-deep .ql-container {
+  font-size: 1em;
+}
+
+/* Vue Treeselect */
+.vue-treeselect::v-deep {
+  .vue-treeselect__control {
+    height: 38px;
+  }
+
+  .vue-treeselect__placeholder,
+  .vue-treeselect__single-value {
+    height: 38px;
+  }
+
+  .vue-treeselect__list-item.vue-treeselect__indent-level-0,
+  .vue-treeselect__list-item.vue-treeselect__indent-level-1,
+  .vue-treeselect__list-item.vue-treeselect__indent-level-2 {
+    > .vue-treeselect__option--disabled .vue-treeselect__label-container {
+      color: #3c4b64;
+    }
+
+    > .vue-treeselect__option--disabled
+      > .vue-treeselect__label-container
+      > .vue-treeselect__checkbox-container {
+      width: 0;
+
+      > .vue-treeselect__checkbox.vue-treeselect__checkbox--unchecked.vue-treeselect__checkbox--disabled {
+        display: none;
+      }
+    }
+  }
+}
+
+/* FilePond */
+.filepond--wrapper::v-deep {
+  .filepond--root {
+    .filepond--drop-label {
+      font-size: 1.25em;
+    }
+
+    .filepond--credits {
+      display: none;
+    }
+
+    .filepond--label-action {
+      text-decoration: none;
+      transition: 0.25s;
+
+      &:hover {
+        text-decoration: underline;
+        color: #2e2e2e;
+      }
+    }
+  }
+
+  .filepond--panel-root {
+    background: transparent;
+    border: 1px solid #2c3340;
+  }
+
+  .gallery-pond {
+    overflow: hidden;
+    max-height: 800px;
+
+    .filepond--item {
+      width: calc(33.33% - .5em);
+    }
+
+    .filepond--drop-label {
+      min-height: 6em;
+    }
+  }
+
+  .logo-pond {
+    width: 170px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .form-control {
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .filepond--wrapper::v-deep {
+    .gallery-pond {
+      max-height: 400px;
+
+      .filepond--drop-label {
+        min-height: 4.75em;
+      }
+    }
+
+    .filepond--root .filepond--drop-label {
+      font-size: 1em;
+    }
+  }
+}

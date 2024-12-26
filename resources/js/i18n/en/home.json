@@ -1,0 +1,166 @@
+{
+    "header": {
+        "caption": "Welcome to Realty Walk. Click areas of interest on the map and choose criteria on the left to begin searching",
+        "btn_register": "Become A Member",
+        "btn_profile": "Go To Profile",
+        "btn_saved_searches": "Saved Searches",
+        "btn_settings": "Settings"
+    },
+    "filter": {
+        "neighborhood_search": "Neighborhood Search",
+        "minimum_price": "Minimum Price",
+        "maximum_price": "Maximum Price",
+        "btn_submit": "Search",
+        "columns": {
+            "filters": "Filters",
+            "search_results": "Search Results",
+            "price": "Price",
+            "listed_price": "Listed Price",
+            "address": "Address",
+            "neighborhood": "Neighborhood",
+            "sub_neighborhood": "Sub-Neighborhood",
+            "builder": "Builder",
+            "visibility_toggle_builder": "Show/Hide Builders",
+            "builders": "Builders",
+            "neighborhoods": "Neighborhoods",
+            "sort_by": "Sort By"
+        },
+        "criteria": {
+            "listing_status": {
+                "label": "Listing Status",
+                "options": {
+                    "any": "Any Status",
+                    "active": "Active",
+                    "pending": "Pending",
+                    "pending_continue": "Pending Continue to Show",
+                    "option_pending": "Option Pending"
+                }
+            },
+            "property_type": {
+                "label": "Property Type",
+                "options": {
+                    "any": "Any",
+                    "single_family": "Single Family",
+                    "townhouse_condo": "Townhouse/Condo",
+                    "multifamily": "Multifamily",
+                    "country_homes": "Country Homes/Acreage",
+                    "mid_hi_rise_condo": "Mid/Hi-Rise Condo",
+                    "neue_wave": "Neue Wave",
+                    "rental": "Rental",
+                    "lots": "Lots"
+                }
+            },
+            "bedrooms": {
+                "label": "Bedrooms",
+                "options": {
+                    "any_min": "No Minimum",
+                    "any_max": "No Maximum",
+                    "bed": "1+ Bed | {n}+ Beds"
+                }
+            },
+            "bathrooms": {
+                "label": "Bathrooms",
+                "options": {
+                    "any_full": "Any Full Bathrooms",
+                    "any_half": "Any Half Bathrooms",
+                    "full_bathroom": "1+ Full Bathroom | {n}+ Full Bathrooms",
+                    "half_bathroom": "1+ Half Bathroom | {n}+ Half Bathrooms"
+                }
+            },
+            "square_feet": {
+                "label": "Square Feet",
+                "options": {
+                    "any_min": "No Minimum",
+                    "any_max": "No Maximum"
+                }
+            },
+            "garage_capacity": {
+                "label": "Garage Capacity",
+                "options": {
+                    "any": "No Minimum"
+                }
+            },
+            "stories": {
+                "label": "Stories",
+                "options": {
+                    "any_min": "No Minimum",
+                    "any_max": "No Maximum"
+                }
+            },
+            "include_pool": {
+                "label": "Has pool?"
+            },
+            "include_elevator": {
+                "label": "Has elevator/elevator shaft?"
+            }
+        }
+    },
+    "start_screen": {
+        "title": "Choose a neighborhood and start to explore.",
+        "btn_go_to_map": "GO TO MAP"
+    },
+    "map": {
+        "btn_search_criteria": "Search Criteria",
+        "btn_neighborhoods": "Neighborhoods",
+        "btn_back_to_neighborhoods": "Back To Neighborhoods",
+        "btn_results": "Results",
+        "btn_save_search": "Save This Search",
+        "btn_save_search_short": "Save Search",
+        "btn_clear_selected": "CLEAR ALL",
+        "selections": "Selections",
+        "close": "Close",
+        "level": "Level {n}",
+        "instructions": "To explore more, select neighborhoods on the map. To view other locations on the map, zoom in, zoomout, or just grab the map and move it around.",
+        "instructions_selected": "To explore more, select neighborhoods inside of {neighborhood}. To view other locations on the map, zoom in, zoomout, or just grab the map and move it around.",
+        "initial_toggle": "The main Neighborhoods layer is disabled while viewing other data layers, please turn off all other layers to re-enable and view the Neighborhoods",
+        "loading_flood_planes": "Loading flood data..."
+    },
+    "result": {
+        "text_initial": "Please use the filters to find properties suitable for you",
+        "btn_search": "Search",
+        "btn_map_view": "Map View",
+        "btn_list_view": "List View",
+        "total_found": "{total} Properties Found",
+        "no_data": "No records found",
+        "item": {
+            "address": "Addr:",
+            "builder": "Builder:",
+            "subdivision": "Subdivision:"
+        },
+        "infinite": {
+            "loading": "Loading...",
+            "no_more": "No further results",
+            "no_results": "No results"
+        }
+    },
+    "searches": {
+        "name_search": "Name Your Search",
+        "search_name": "Search Name",
+        "btn_save": "Save"
+    },
+    "toggles": {
+        "flood_planes": "FLOOD PLANES",
+        "school_zones": "SCHOOL ZONES",
+        "elementary": "ELEMENTARY",
+        "highschool": "HIGH SCHOOL",
+        "middleschool": "MIDDLE SCHOOL",
+        "bike_trails": "BIKE TRAILS",
+        "show_unselected_areas": "SHOW UNSELECTED AREAS"
+    },
+    "flood_zones": {
+        "A": "100-YEAR FLOODPLAIN",
+        "AE": "100-YEAR FLOODPLAIN (WITH BFE)",
+        "AH": "100-YEAR SHALLOW FLOODING",
+        "AO": "100-YEAR SHEET-FLOW FLOODING",
+        "AR": "100-YEAR FLASH FLOODING",
+        "V": "100-YEAR FLOODPLAIN (WIND-DRIVEN WAVES)",
+        "VE": "100-YEAR FLOODPLAIN (STORM WAVES)",
+        "C": "500-YEAR FLOODPLAIN (LOW-RISK)",
+        "B": "500-YEAR FLOODPLAIN (MODERATE-RISK)",
+        "X": "500-YEAR FLOODPLAIN",
+        "D": "UNDETERMINED"
+    },
+    "alerts": {
+        "polygon_level_3": "The information in Level 3 that you are about to enter, is a lot of data. Many users consider this to be overwhelming. If you a sure that you want this information, click proceed. To prevent this pop-up from re-occurring, register and take full advantage of RealtyWalk's functionality."
+    }
+}

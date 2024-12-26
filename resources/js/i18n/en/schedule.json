@@ -1,0 +1,32 @@
+{
+  "listing": {
+    "title": "Schedule Viewing",
+    "form": {
+      "labels": {
+        "date": "Pick Date",
+        "time": "Pick Time",
+        "name": "Name",
+        "email": "Email",
+        "phone": "Phone Number",
+        "message": "Message to Agent"
+      },
+      "placeholders": {
+        "date": "Pick a date",
+        "time": "Pick a time",
+        "name": "Enter your name",
+        "email": "Enter your email",
+        "message": "Enter additional message/information to Showing Agent"
+      }
+    },
+    "notifications": {
+      "success": {
+        "title": "Success!",
+        "message": "Your viewing request as been sent, an agent should be in touch soon."
+      }
+    },
+    "btn_view": "Schedule a Viewing",
+    "btn_submit": "Schedule",
+    "btn_submit_processing": "Please wait...",
+    "btn_close": "Close"
+  }
+}

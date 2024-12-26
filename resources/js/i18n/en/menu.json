@@ -1,0 +1,15 @@
+{
+  "home": "Home",
+  "about": "About",
+  "address_lookup": "Address Lookup",
+  "enter_address": "Enter an address",
+  "neighborhoods": "Neighborhoods",
+  "neighborhood_profiles": "Neighborhood Profiles",
+  "register": "Sign Up",
+  "sign_in": "Log In",
+  "my_favorites": "Favorites",
+  "my_profile": "My Profile",
+  "log_out": "Log Out",
+  "report_bug": "Report Problem",
+  "watch_the_demo": "WATCH THE DEMO"
+}

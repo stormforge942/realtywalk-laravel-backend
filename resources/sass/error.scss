@@ -1,0 +1,64 @@
+
+button:focus {
+    outline: 0;
+}
+
+body{
+    height: auto !important;
+}
+
+.error-page {
+  h2 {
+    font-size: 15rem;
+    color: #ffc603;
+    
+  }
+  
+  span {
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 40px;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .home {
+    font-size: 40px;
+  }
+
+  &.centered {
+    width: 90%;
+    margin: 200px auto;
+    text-align: center;
+  }
+}
+
+.centerfix {
+    width: 90%;
+    height: 40px;
+    vertical-align: center;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer-logo {
+        width: 194.5px;
+        margin: 0 auto;
+    }
+    .footer-logo img {
+        height: 45px;
+    }
+    .centerfix {
+        margin-left:auto;
+        margin-right: auto;
+        text-align: center;
+        height: auto;
+        padding-bottom: 20px;
+    }
+    .centered {
+        width: 90%;
+        margin: 300px auto 400px auto;
+      }
+}

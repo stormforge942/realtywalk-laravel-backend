@@ -1,0 +1,11 @@
+{
+  "list": {
+    "title": "Favorites",
+    "no_data": "No item in favorites"
+  },
+  "item": {
+    "btn_add": "Add to Favorites",
+    "btn_remove": "Remove from Favorites",
+    "alert_login": "Please login to continue!"
+  }
+}

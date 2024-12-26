@@ -1,0 +1,276 @@
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-Regular.otf") format("opentype");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "MyriadPro";
+    src: url("/fonts/MyriadPro-Bold.otf") format("opentype");
+    font-weight: bold;
+}
+
+html,
+body,
+div,
+ul,
+table {
+    padding: 0;
+    margin: 0;
+    font-family: "MyriadPro", sans-serif;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.c-main {
+  padding-top: 0;
+}
+
+#nav {
+    background-color: #012e55;
+    color: white;
+    text-align: right;
+    width: 100%;
+}
+#nav ul {
+    list-style: none;
+    margin: 0 auto;
+    max-width: 1300px;
+}
+#nav ul li {
+    display: inline;
+    padding-left: 20px;
+}
+#nav a {
+    color: white;
+    text-decoration: none;
+}
+#nav a:visited {
+    color: white;
+}
+
+#content {
+    margin-top: 30px;
+}
+
+#content #left {
+    float: left;
+    margin-right: 1rem;
+}
+
+#content #left #logo {
+    background-color: #012e55;
+    padding: 20px;
+    text-align: center;
+}
+
+#content #left #logo a img {
+    background-color: #012e55;
+}
+#content #left .footprints {
+    text-align: center;
+    vertical-align: middle;
+}
+#content #left #footprints-img {
+    margin-top: 100px;
+}
+#content #right {
+    overflow: hidden;
+}
+
+#content #right div#pagehead {
+    color: white;
+    background-color: #012e55;
+    padding: 3px;
+}
+#content #right div#pagehead h1 {
+    margin: 0;
+}
+#content #right div#pagebody {
+    padding: 10px;
+}
+body.single-builder #content #right div#pagebody {
+    padding: 0 10px;
+}
+
+.pagination {
+    margin: 0 auto;
+}
+
+#footer {
+    position: relative;
+    clear: both;
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.bluetext {
+    color: #012e55;
+}
+
+.clickable {
+    cursor: pointer;
+}
+
+.blue-border-left {
+    border-left: 1px solid #012e55;
+    padding-left: 10px;
+}
+
+.blue-border-bottom {
+    border-bottom: 1px solid #012e55;
+}
+#right .card {
+    border-radius: 0;
+}
+#right .card-header {
+    background-color: #012e55;
+    color: #fff;
+    padding: 0 1.25em;
+    border-radius: 0;
+}
+.card .builder {
+    background-color: #ccd9e1;
+}
+#right .card-text {
+    margin: 0;
+}
+
+div#div-listing {
+    padding: 0 1.25em;
+}
+
+.border-left {
+    border-left: 1px solid #012e55 !important;
+}
+.border-top {
+    border-top: 1px solid #012e55 !important;
+}
+
+@media screen and (max-width: 1199px) {
+    .form-control {
+        margin: 1rem 0;
+    }
+}
+/*# sourceMappingURL=general.css.map */
+#div-listing td:nth-child(1) img {
+    max-width: 90px;
+}
+#div-listing table td {
+    padding: 2px;
+}
+#div-listing .search-result-item {
+    margin-bottom: 2rem;
+}
+#div-listing .search-result-item a,
+#div-listing .search-result-item a:hover,
+#div-listing .search-result-item a:visited {
+    color: #012e55;
+}
+#div-listing .search-result-item td {
+    vertical-align: top;
+}
+#div-listing .search-result-item .item-title-image {
+    max-width: 100px;
+}
+#div-listing .search-result-item .item-info-bar {
+    border-bottom: 1px solid #012e55;
+    height: 22px;
+    width: 100%;
+}
+#div-listing .search-result-item .item-info-bar table {
+    width: 100%;
+}
+#div-listing .search-result-item .item-info-bar table td:nth-child(1) {
+    width: 15%;
+}
+#div-listing .search-result-item .item-info-bar table td:nth-child(2) {
+    width: 40%;
+}
+#div-listing .search-result-item .item-info-bar table td:nth-child(3) {
+    width: 25%;
+}
+#div-listing .search-result-item .item-info-bar table td:nth-child(4) {
+    width: 20%;
+}
+
+/*# sourceMappingURL=results.css.map */
+h3,
+.h3 {
+    font-size: 31px;
+}
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3 {
+    margin-top: 25px;
+    margin-bottom: 12.5px;
+}
+p {
+    margin: 0 0 12.5px;
+}
+
+.header-container,
+.bg-newhomewalk {
+    background-color: #012e55;
+}
+
+footer {
+  background: #012e55;
+  color: #fff;
+  clear: both;
+}
+
+@media screen and (max-width: 991px) {
+  .page-content {
+    // Pad page content when the header moves to position: fixed.
+    padding-top: 106px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .page-content {
+    padding-top: 90px;
+  }
+}
+
+$hamburger-padding-x          : 20px;
+$hamburger-padding-y          : 15px;
+$hamburger-layer-width        : 45px !default;
+$hamburger-layer-height       : 2px !default;
+$hamburger-layer-spacing      : 8px !default;
+$hamburger-layer-border-radius: 2px !default;
+$hamburger-layer-color        : #ffc501 !default;
+$hamburger-hover-opacity      : 0.9 !default;
+
+@import "~hamburgers/_sass/hamburgers/hamburgers.scss";
+
+.video-wrapper {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.video-wrapper > iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.text-brand {
+    color: #012e55 !important;
+}
+
+.max-h-10 {
+    max-height: 10rem;
+}
+
+.object-cover {
+    object-fit: cover;
+}

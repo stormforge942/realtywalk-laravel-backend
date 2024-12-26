@@ -1,0 +1,24 @@
+{
+  "show": {
+    "gallery": {
+      "title": "Gallery",
+      "link_view_more": "View more images..."
+    },
+    "featured_box": {
+      "labels": {
+        "email": "Email",
+        "address": "Address",
+        "website": "Website"
+      }
+    }
+  },
+  "list": {
+    "searchBy": {
+      "help": "Properties By Neighborhood",
+      "placeholder":  "Search Neighborhood"
+    },
+    "not_found": "No results found<br/>Try entering a more specific search keyword.",
+    "level": "Level",
+    "n_properties": "no properties | {n} property | {n} properties"
+  }
+}

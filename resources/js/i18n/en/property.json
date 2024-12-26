@@ -1,0 +1,94 @@
+{
+  "show": {
+    "gallery": "Gallery",
+    "view_gallery": "View Gallery",
+    "features": {
+      "title": "Property Details",
+      "status": "Status:",
+      "broker": "Broker:",
+      "price": "Price:",
+      "bedrooms": "Bed(s)",
+      "bathrooms": "{n} Full & {h} Half Bath(s)",
+      "sqft": " Bldg Sqft. ",
+      "garage_capacity": "Garage Capacity:",
+      "year_built": "Built in:",
+      "neighborhood": "Neighborhood:",
+      "subdivision": "Subdivision:",
+      "zipcode": "ZIP Code:",
+      "mls_number": "MLS Number:",
+      "fees_and_taxes": "Fees and Taxes:",
+      "builder": "Builder:",
+      "office": "Broker:",
+      "stories": "Stories:"
+    },
+    "listing_information": {
+      "title": "Listing Information",
+      "agent": "Agent:",
+      "no_agent": "(no agent provided)",
+      "agent_website": "Agent Website:",
+      "data_source": "Data Source:"
+    }
+  },
+  "add": {
+    "title": "Add New Property",
+    "sections": {
+      "gallery": "Gallery",
+      "general": "General Information",
+      "amenities": "Amenities",
+      "geo": "Geo Information",
+      "other": "Other"
+    },
+    "form": {
+      "labels": {
+        "gallery": "Drag &amp; drop your files here or <span class=\"filepond--label-action\"> Browse </span>",
+        "title": "Title",
+        "price_format": "Price Format",
+        "status": "Status",
+        "broker": "Broker",
+        "category": "Category",
+        "year_built": "Year Built",
+        "bedrooms": "Bedrooms",
+        "bathrooms_full": "Bathrooms (Full)",
+        "bathrooms_half": "Bathrooms (Half)",
+        "styles": "Styles",
+        "square_feet": "Building Square Feet",
+        "lot_size": "Lot Size",
+        "neighborhood": "Neighborhood",
+        "address_street": "Street Name",
+        "address_number": "Street Number",
+        "unit_number": "Unit Number",
+        "zipcode": "ZIP Code",
+        "lat": "Latitude",
+        "lng": "Longitude",
+        "video_embed": "Video HTML Embed",
+        "descr": "Description"
+      },
+      "placeholders": {
+        "price_format": "Select the price format",
+        "status": "Select the status",
+        "category": "Select the category",
+        "styles": "Select the styles",
+        "neighborhood": "Select property neighborhood",
+        "neighborhood_no_data": "No data under this polygon"
+      },
+      "text_amenities_fetching": "Fetching amenities...",
+      "text_amenities_no_data": "No amenities found.",
+      "btn_submit": "Save",
+      "btn_submit_processing": "Saving..."
+    },
+    "map": {
+      "help": "Select a location on the map to set the Latitude and Longitude:"
+    }
+  },
+  "cta": {
+    "btn_view_listing": "View Listing"
+  },
+  "list_details": {
+    "price": "Price:",
+    "address": "Addr:",
+    "status": "Status:",
+    "sub": "Sub:",
+    "builder": "Bldr:",
+    "to_be_determined_abbr": "TBD"
+  }
+}

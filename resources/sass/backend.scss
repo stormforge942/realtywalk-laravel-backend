@@ -1,0 +1,82 @@
+//backend styles
+$icon-font-path: '~@neos21/bootstrap3-glyphicons/assets/fonts/';
+@import "~@coreui/coreui/scss/coreui";
+@import "~@neos21/bootstrap3-glyphicons";
+@import "~animate.css/animate.min.css";
+@import "~@coreui/icons/scss/free/free-icons";
+@import "~font-awesome/scss/font-awesome";
+@import "~noty/src/noty.scss";
+@import "~noty/src/themes/relax";
+@import "_custom";
+
+/* FilePond */
+
+
+.filepond--wrapper {
+  .filepond--item {
+    width: calc(33.33% - .5em);
+  }
+
+  .filepond--root {
+    .filepond--drop-label {
+      font-size: 1.25em;
+      min-height: 6em;
+    }
+
+    .filepond--credits {
+      display: none;
+    }
+
+    .filepond--label-action {
+      text-decoration: none;
+      transition: 0.25s;
+
+      &:hover {
+        text-decoration: underline;
+        color: #2e2e2e;
+      }
+    }
+
+    &[data-disabled="disabled"] {
+      .filepond--list {
+        opacity: 0.5;
+      }
+    }
+  }
+
+  .filepond--panel-root {
+    background: transparent;
+    border: 1px solid #2c3340;
+  }
+}
+
+.single-file .filepond--wrapper {
+  .filepond--item {
+    width: 100%;
+  }
+}
+
+/* This style breaks filepond instances with :allow-multipe="false" */
+.gallery-file-input .filepond--wrapper .filepond--root {
+  overflow: hidden;
+  max-height: 800px;
+}
+
+@media screen and (max-width: 767px) {
+  .filepond--wrapper .filepond--item {
+    width: calc(50% - .5em);
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .filepond--wrapper .filepond--root {
+    .filepond--drop-label {
+      font-size: 1em;
+      min-height: 4.75em;
+    }
+  }
+
+  .gallery-file-input .filepond--wrapper .filepond--root {
+    max-height: 400px;
+  }
+}

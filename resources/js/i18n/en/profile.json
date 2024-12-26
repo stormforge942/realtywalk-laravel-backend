@@ -1,0 +1,59 @@
+{
+  "user": {
+    "title": "My Profile",
+    "form": {
+      "labels": {
+        "name": "Name",
+        "picture": "Picture",
+        "current_password": "Current Password",
+        "new_password": "New Password",
+        "password_confirmation": "Confirm Password"
+      }
+    },
+    "change_password_title": "Change Password",
+    "notifications": {
+      "success": {
+        "title": "Success!",
+        "message": "Your profile has been successfully updated."
+      },
+      "password_updated": {
+        "title": "Success!",
+        "message": "Your password has been successfully updated."
+      }
+    },
+    "btn_picture_replace": "Replace",
+    "btn_picture_upload": "Upload",
+    "btn_submit": "Update",
+    "btn_submit_processing": "Updating..."
+  },
+  "builder": {
+    "title": "Builder Profile",
+    "sections": {
+      "gallery": "Gallery",
+      "logo": "Logo",
+      "general": "General Information"
+    },
+    "form": {
+      "labels": {
+        "title": "Title",
+        "email": "Email Address",
+        "phone": "Phone",
+        "website": "Website",
+        "builder_areas": "Builder Areas",
+        "city": "City",
+        "address1": "Address 1",
+        "address2": "Address 2",
+        "address3": "Address 3",
+        "descr": "Description"
+      },
+      "placeholders": {
+        "gallery": "Drag &amp; drop your files here or <span class=\"filepond--label-action\"> Browse </span>",
+        "logo": "Drag &amp; drop your picture here or <span class=\"filepond--label-action\"> Browse </span>",
+        "neighborhood": "Choose builder areas",
+        "neighborhood_no_child_data": "No data under this polygon"
+      }
+    },
+    "btn_submit": "Update",
+    "btn_submit_processing": "Updating..."
+  }
+}
